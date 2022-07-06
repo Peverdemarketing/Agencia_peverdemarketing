@@ -1,0 +1,238 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 1px;
+    align-content: center;
+    background-color: #fff;
+  
+}
+
+
+section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+#menu_principal {
+    display: absolute;
+    position: relative;
+}
+
+#menu_principal a {
+    text-decoration: none;
+    padding: 5px;
+    margin: 3px;
+    border: 3px;
+    list-style: none;
+    color: black;
+}
+
+#whatsapp {
+    display: absolute;
+    position: fixed;
+
+}
+
+
+
+/* NO HE LOGRADO AÚN COLOCAR HOVER A ESA ENLACE DE MENU 
+
+.item_menu_de_navegacion a:hover{
+    color: red;
+    background-color: red;
+
+}
+
+*/
+
+
+body {
+    padding-top: 100px;
+    background-color: transparent;
+    background-image: none;
+    background: none;
+}
+
+
+.banner_de_secciones {
+ 
+    background-image: url(../assets/BANNER.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-color: transparent;
+    background-size: cover;
+
+    
+}
+
+
+#titulo_contacto {
+    color: blue;
+    height: 200px;
+    line-height: 20px;
+    text-align: left;
+
+
+}
+
+#titulo_index {
+    color: blue;
+    height: 200px;
+    display: flex;
+    line-height: 20px;
+    text-align: left;
+    justify-content: center;
+    padding-top: 10%;
+
+}
+
+#titulo_nosotros {
+    color: blue;
+    height: 200px;
+    line-height: 20px;
+    text-align: left;
+  
+
+}
+
+#titulo_planes {
+    color: blue;
+    height: 200px;
+    line-height: 20px;
+    text-align: left;
+
+
+}
+
+#titulo_servicios {
+    color: blue;
+    height: 200px;
+    line-height: 20px;
+    text-align: left;
+    
+
+}
+
+
+#boton_principal_mas_informacion {
+    align-items: center;
+    align-content: center;
+    display: contents;
+
+}
+
+
+#titulo_porque_nosotros {
+    color: blue;
+    font-weight: 1000;
+    padding-top: 100px;
+}
+
+
+
+
+#porque_nosotros {
+    background: rgb(102,167,233);
+    background: linear-gradient(180deg, rgba(102,167,233,1) 0%, rgba(8,123,188,1) 87%, rgba(20,126,192,1) 100%);
+    padding-top: 70px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    color: aqua;
+}
+
+#porque_nosotros p {
+    color: #fff;
+}
+
+
+
+#nuestros_clientes {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#conversemos {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.footer_home {
+    padding-top: 50px;
+    margin-top: 50px;
+    background-image: radial-gradient(circle at 50% -20.71%, #be5af5 0, #a04ff4 16.67%, #7944f3 33.33%, #3c3cf2 50%, #0037f1 66.67%, #0034ef 83.33%, #0034ee 100%);
+    color: white;
+    font-weight: 800;
+    padding-bottom: 50px;
+}
+
+
+#ventaja_titulo {
+    padding-top: 120px;
+    color: #0034ee;
+}
+
+
+
+#texto_de_banner {
+    color: black;
+    font-weight: 1000;
+    text-shadow:2px #999;
+    align-content: right;
+}
+
+
+p {
+    font-family: open-sans;
+}
+
+
+#banner_div {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+#nuestros_servicios {
+    margin-bottom: 10px;
+}
+
+#nuestros_servicios h2 {
+    color: #0034ee;
+}
+
+#acompanarte_paso_a_paso {
+    background: rgb(102,167,233);
+    background: linear-gradient(180deg, rgba(102,167,233,1) 0%, rgba(8,123,188,1) 87%, rgba(20,126,192,1) 100%);
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#acompanarte_paso_a_paso h2 {
+    color: white;
+
+}
+
+#acompanarte_paso_a_paso li {
+    color: white;
+}
+
+
+#imagen_acompanarte_paso_a_paso {
+    background-image: url(assets\wave.svg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+
+#titulo_nuestros_Valores_humanos {
+    color: blue;
+    font-weight: 1000;
+}
+
+#titulo_nuestros_clientes {
+    color: blue;
+    font-weight: 1000;
+}
