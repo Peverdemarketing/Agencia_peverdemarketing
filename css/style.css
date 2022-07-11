@@ -74,8 +74,21 @@ body {
     height: 200px;
     line-height: 20px;
     text-align: left;
+    
+}
 
+#titulo_contacto {
+    animation-duration: 3s;
+    animation-name: tituloanimadosx;
+}
 
+@keyframes tituloanimadosx {
+
+from {
+    margin-left: 15%;
+    width: 150%;
+}
+    
 }
 
 #titulo_index {
@@ -88,6 +101,39 @@ body {
     padding-top: 10%;
 
 }
+
+#titulo_index {
+    animation-duration: 18s;
+    animation-name: titulo_index_animado;
+}
+
+@keyframes titulo_index_animado {
+from {
+    color: cornflowerblue;
+    width: 50%;
+    margin-top: 10px;
+
+}
+    
+}
+
+
+#boton_banner_principal_bt {
+    animation-duration: 5s;
+    animation-name: animacion_de_boton_principal;
+}
+
+@keyframes animacion_de_boton_principal     
+{
+    from {
+        color: #a04ff4;
+        margin-left: 100px;
+        animation: girar;
+    }
+    
+}
+
+
 
 #titulo_nosotros {
     color: blue;
@@ -235,4 +281,10 @@ p {
 #titulo_nuestros_clientes {
     color: blue;
     font-weight: 1000;
+}
+
+
+.img-fluid {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
