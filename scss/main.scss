@@ -1,0 +1,29 @@
+#titulo_nosotros {
+    color: darkblue;
+    &:hover {
+        color: aqua;
+    }
+}
+
+#titulo_mision_nosotros {
+    color: darkmagenta;
+
+}
+
+#titulo_vision_nosotros {
+    color: darkorchid;
+}
+
+#mision_vision {
+    p {
+        color: #00008B;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;       
+        &:hover {
+            color: blueviolet;
+        }
+    }
+}
+
+
+
+
