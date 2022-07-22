@@ -38,17 +38,6 @@ section {
 
 
 
-/* NO HE LOGRADO AÚN COLOCAR HOVER A ESA ENLACE DE MENU 
-
-.item_menu_de_navegacion a:hover{
-    color: red;
-    background-color: red;
-
-}
-
-*/
-
-
 body {
     padding-top: 100px;
     background-color: transparent;
@@ -65,7 +54,6 @@ body {
     background-color: transparent;
     background-size: cover;
 
-    
 }
 
 
@@ -133,7 +121,7 @@ from {
     
 }
 
-
+/*
 
 #titulo_nosotros {
     color: blue;
@@ -162,6 +150,7 @@ from {
 
 }
 
+*/
 
 #boton_principal_mas_informacion {
     align-items: center;
@@ -200,11 +189,14 @@ from {
     padding-bottom: 30px;
 }
 
+/*
 #conversemos {
     padding-top: 70px;
     padding-bottom: 30px;
 }
+*/
 
+/*
 .footer_home {
     padding-top: 50px;
     margin-top: 50px;
@@ -213,7 +205,7 @@ from {
     font-weight: 800;
     padding-bottom: 50px;
 }
-
+*/
 
 #ventaja_titulo {
     padding-top: 120px;

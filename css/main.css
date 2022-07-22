@@ -14,3 +14,32 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
   #mision_vision p:hover {
     color: blueviolet; }
+
+.contacto_pagina h2 {
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800; }
+
+#texto_de_banner {
+  color: black; }
+
+.titulo_de_cada_seccion_home {
+  color: blue; }
+
+.titulo_secciones_web_similares, #conversemos h2 {
+  color: #0583f6;
+  height: 50px;
+  line-height: 20px;
+  text-align: left; }
+
+.footer_home {
+  padding-top: 50px;
+  margin-top: 50px;
+  background-image: radial-gradient(circle at 50% -20.71%, #be5af5 0, #a04ff4 16.67%, #7944f3 33.33%, #3c3cf2 50%, #0037f1 66.67%, #0034ef 83.33%, #0034ee 100%);
+  color: white;
+  font-weight: 800;
+  padding-bottom: 50px; }
+
+.titulo_de_blog_post {
+  color: #00008B;
+  padding-top: 10px; }

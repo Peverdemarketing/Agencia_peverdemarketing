@@ -1,3 +1,5 @@
+@import 'contacto', 'index', 'nosotros', 'planes', 'servicios', 'variables', 'footer';
+
 #titulo_nosotros {
     color: darkblue;
     &:hover {
@@ -22,6 +24,65 @@
             color: blueviolet;
         }
     }
+}
+
+@mixin h2contacto {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    
+}
+
+
+.contacto_pagina {
+    h2 {
+        @include h2contacto;
+    }
+    
+}
+
+#texto_de_banner {
+    color: $texto_banner_principal;
+}
+
+.titulo_de_cada_seccion_home {
+    color: $color_titulos_home;
+}
+
+
+
+@mixin footer_web {
+    padding-top: 50px;
+    margin-top: 50px;
+    background-image: radial-gradient(circle at 50% -20.71%, #be5af5 0, #a04ff4 16.67%, #7944f3 33.33%, #3c3cf2 50%, #0037f1 66.67%, #0034ef 83.33%, #0034ee 100%);
+    color: white;
+    font-weight: 800;
+    padding-bottom: 50px;
+}
+
+
+.titulo_secciones_web_similares {
+    color: $color_titulos_principal;
+    height: 50px;
+    line-height: 20px;
+    text-align: left;
+}
+
+
+.footer_home {
+    @include footer_web;
+}
+
+
+#conversemos {
+    h2 {
+        @extend .titulo_secciones_web_similares;
+    }
+}
+
+.titulo_de_blog_post {
+    color: $color_titulos_secundarios;
+    padding-top: 10px;
 }
 
 
