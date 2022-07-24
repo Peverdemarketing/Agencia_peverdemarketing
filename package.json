@@ -1,7 +1,7 @@
 {
   "name": "agencia_peverdemarketing",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este sitio tiene la misión de ofrecer información sobre agencia Peverdemarketing y su gama de servicios a empresas que deseen impulsar su marketing digital",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Peverdemarketing/Agencia_peverdemarketing.git"
   },
-  "author": "",
+  "author": "Pedro Verde",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Peverdemarketing/Agencia_peverdemarketing/issues"
