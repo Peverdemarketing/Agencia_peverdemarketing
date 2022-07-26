@@ -1,3 +1,25 @@
+#mision_vision {
+  padding-top: 50px; }
+
+#boton_contactar_nosotros {
+  margin-bottom: 15px; }
+
+#boton_contactar_planes {
+  margin-bottom: 15px; }
+
+#seccion_servicios_principal {
+  padding-bottom: 20px; }
+
+#servicios_diferenciados {
+  padding-top: 50px; }
+
+#estrategia_global_section {
+  padding-top: 10px; }
+
+#decision {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
 #titulo_nosotros {
   color: darkblue; }
   #titulo_nosotros:hover {
