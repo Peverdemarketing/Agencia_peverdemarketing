@@ -39,8 +39,8 @@
 
 .contacto_pagina h2 {
   color: blue;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 800; }
+  font-family: 'Times New Roman', Times, sans-serif;
+  font-weight: 799; }
 
 #texto_de_banner {
   color: black; }
@@ -203,7 +203,7 @@ from {
   align-content: right; }
 
 p {
-  font-family: open-sans; }
+  font-family: 'Times New Roman', Times, sans-serif; }
 
 #banner_div {
   margin-bottom: 15px;
@@ -249,7 +249,7 @@ p {
   color: #00008B; }
 
 #nuestros_servicios p {
-  font-family: 'Times New Roman', Times, serif; }
+  font-family: 'Times New Roman', Times, sans-serif; }
 
 .titulo_nuestra_ventaja {
   color: #00008B; }
