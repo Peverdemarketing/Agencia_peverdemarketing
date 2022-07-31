@@ -1,11 +1,92 @@
+#conversemos {
+  padding-top: 20px;
+  margin-top: 20px; }
+
+#titulo_contacto {
+  color: blue;
+  height: 200px;
+  line-height: 20px;
+  text-align: left;
+  font-family: Verdana, sans-serif; }
+
+#titulo_contacto {
+  animation-duration: 3s;
+  animation-name: tituloanimadosx;
+  font-family: Verdana, sans-serif; }
+
+#titulo_index {
+  color: blue;
+  height: 200px;
+  display: flex;
+  line-height: 20px;
+  text-align: left;
+  justify-content: center;
+  padding-top: 10%;
+  font-family: Verdana, sans-serif; }
+
+#titulo_index {
+  animation-duration: 18s;
+  animation-name: titulo_index_animado;
+  font-family: Verdana, sans-serif; }
+
+#boton_banner_principal_bt {
+  animation-duration: 5s;
+  animation-name: animacion_de_boton_principal;
+  font-family: Verdana, sans-serif; }
+
+#boton_principal_mas_informacion {
+  align-items: center;
+  align-content: center;
+  display: contents;
+  font-family: Verdana, sans-serif; }
+
+#titulo_porque_nosotros {
+  color: white;
+  font-weight: 1000;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-family: Verdana, sans-serif; }
+
+#porque_nosotros {
+  background: #66a7e9;
+  background: linear-gradient(180deg, #66a7e9 0%, #087bbc 87%, #147ec0 100%);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  color: aqua; }
+
+#porque_nosotros p {
+  color: #fff;
+  font-family: Verdana, sans-serif; }
+
+#nuestros_clientes {
+  padding-top: 50px;
+  padding-bottom: 30px; }
+
+#ventaja_titulo {
+  padding-top: 25px;
+  color: #0034ee; }
+
+#texto_de_banner {
+  color: black;
+  font-weight: 1000;
+  text-shadow: 2px #999;
+  align-content: right; }
+
+#boton_contactar_seccion_home_nuestra_ventaje {
+  margin-bottom: 10px; }
+
 #mision_vision {
-  padding-top: 50px; }
+  padding-top: 50px;
+  font-family: Verdana, sans-serif; }
 
 #boton_contactar_nosotros {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  font-family: Verdana, sans-serif; }
 
 #boton_contactar_planes {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  font-family: Verdana, sans-serif; }
 
 #seccion_servicios_principal {
   padding-bottom: 20px; }
@@ -18,7 +99,38 @@
 
 #decision {
   padding-top: 60px;
-  padding-bottom: 60px; }
+  padding-bottom: 60px;
+  color: white;
+  background: #66a7e9;
+  background: linear-gradient(180deg, #66a7e9 0%, #087bbc 87%, #147ec0 100%); }
+
+#titulo_secundario_seccion_servicios_decision {
+  color: white; }
+
+/*Imagenes seccion de servicios*/
+@media (min-width: 100px) and (max-width: 768px) {
+  #imagen_estrategia_global {
+    display: none; }
+  #imagen_estrategia_global_2 {
+    display: none; }
+  #imagen_email_marketing_servicios {
+    display: none; }
+  #imagen_inbountmarketing {
+    display: none; }
+  #imagen_investigacion_de_mercados {
+    display: none; } }
+
+.footer_home {
+  padding-top: 50px;
+  margin-top: 50px;
+  background-image: radial-gradient(circle at 50% -20.71%, #be5af5 0, #a04ff4 16.67%, #7944f3 33.33%, #3c3cf2 50%, #0037f1 66.67%, #0034ef 83.33%, #0034ee 100%);
+  color: white;
+  font-weight: 800;
+  padding-bottom: 50px;
+  font-family: Verdana, sans-serif; }
+
+.iconos_de_redes_footer {
+  padding-top: 20px; }
 
 #titulo_nosotros {
   color: darkblue; }
@@ -33,14 +145,15 @@
 
 #mision_vision p {
   color: #00008B;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  font-family: Verdana, sans-serif; }
   #mision_vision p:hover {
     color: blueviolet; }
 
 .contacto_pagina h2 {
   color: blue;
-  font-family: 'Times New Roman', Times, sans-serif;
-  font-weight: 799; }
+  font-family: Verdana, sans-serif;
+  font-weight: 799;
+  font-family: Verdana, sans-serif; }
 
 #texto_de_banner {
   color: black; }
@@ -54,16 +167,8 @@
   line-height: 20px;
   text-align: left; }
 
-.footer_home {
-  padding-top: 50px;
-  margin-top: 50px;
-  background-image: radial-gradient(circle at 50% -20.71%, #be5af5 0, #a04ff4 16.67%, #7944f3 33.33%, #3c3cf2 50%, #0037f1 66.67%, #0034ef 83.33%, #0034ee 100%);
-  color: white;
-  font-weight: 800;
-  padding-bottom: 50px; }
-
-.iconos_de_redes_footer {
-  padding-top: 20px; }
+#conversemos h2 {
+  font-family: Verdana, sans-serif; }
 
 .titulo_de_blog_post {
   color: #00008B;
@@ -107,103 +212,11 @@ body {
   background-color: transparent;
   background-size: cover; }
 
-#titulo_contacto {
-  color: blue;
-  height: 200px;
-  line-height: 20px;
-  text-align: left; }
-
-#titulo_contacto {
-  animation-duration: 3s;
-  animation-name: tituloanimadosx; }
-
-/*
-@keyframes tituloanimadosx {
-
-from {
-    margin-left: 15%;
-    width: 150%;
-}
-    
-}
-*/
-#titulo_index {
-  color: blue;
-  height: 200px;
-  display: flex;
-  line-height: 20px;
-  text-align: left;
-  justify-content: center;
-  padding-top: 10%; }
-
-#titulo_index {
-  animation-duration: 18s;
-  animation-name: titulo_index_animado; }
-
-/*
-@keyframes titulo_index_animado {
-from {
-    color: cornflowerblue;
-    width: 50%;
-    margin-top: 10px;
-
-}
-    
-}
-
-*/
-#boton_banner_principal_bt {
-  animation-duration: 5s;
-  animation-name: animacion_de_boton_principal; }
-
-/*
-@keyframes animacion_de_boton_principal     
-{
-    from {
-        color: #a04ff4;
-        margin-left: 100px;
-        animation: girar;
-    }
-    
-}
-*/
-#boton_principal_mas_informacion {
-  align-items: center;
-  align-content: center;
-  display: contents; }
-
-#titulo_porque_nosotros {
-  color: blue;
-  font-weight: 1000;
-  padding-top: 30px; }
-
-#porque_nosotros {
-  background: #66a7e9;
-  background: linear-gradient(180deg, #66a7e9 0%, #087bbc 87%, #147ec0 100%);
-  padding-top: 70px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  color: aqua; }
-
-#porque_nosotros p {
-  color: #fff; }
-
-#nuestros_clientes {
-  padding-top: 50px;
-  padding-bottom: 30px; }
-
-#ventaja_titulo {
-  padding-top: 25px;
-  color: #0034ee; }
-
-#texto_de_banner {
-  color: black;
-  font-weight: 1000;
-  text-shadow: 2px #999;
-  align-content: right; }
+h1 {
+  font-family: Verdana, sans-serif; }
 
 p {
-  font-family: 'Times New Roman', Times, sans-serif; }
+  font-family: Verdana, sans-serif; }
 
 #banner_div {
   margin-bottom: 15px;
@@ -213,7 +226,8 @@ p {
   margin-bottom: 10px; }
 
 #nuestros_servicios h2 {
-  color: #0034ee; }
+  color: #0034ee;
+  font-family: Verdana, sans-serif; }
 
 #acompanarte_paso_a_paso {
   background: #66a7e9;
@@ -223,7 +237,8 @@ p {
   padding-bottom: 20px; }
 
 #acompanarte_paso_a_paso h2 {
-  color: white; }
+  color: white;
+  font-family: Verdana, sans-serif; }
 
 #acompanarte_paso_a_paso li {
   color: white; }
@@ -235,11 +250,13 @@ p {
 
 #titulo_nuestros_Valores_humanos {
   color: blue;
-  font-weight: 1000; }
+  font-weight: 1000;
+  font-family: Verdana, sans-serif; }
 
 #titulo_nuestros_clientes {
   color: blue;
-  font-weight: 1000; }
+  font-weight: 1000;
+  font-family: Verdana, sans-serif; }
 
 .img-fluid {
   margin-top: 5px;
@@ -249,14 +266,10 @@ p {
   color: #00008B; }
 
 #nuestros_servicios p {
-  font-family: 'Times New Roman', Times, sans-serif; }
+  font-family: Verdana, sans-serif; }
 
 .titulo_nuestra_ventaja {
   color: #00008B; }
-
-#conversemos {
-  padding-top: 20px;
-  margin-top: 20px; }
 
 /* Bootstrap */
 .btn btn-primary btn-lg {
@@ -270,6 +283,10 @@ p {
   color: red; }
 
 /* Responsive */
+@media (min-width: 768px) {
+  #logo-movil {
+    display: none; } }
+
 @media (max-width: 990px) {
   #whatsapp {
     display: none; }
@@ -282,9 +299,9 @@ p {
     height: 60%; } }
 
 /* Menu */
-header .navegacion #menu_principal a {
+header .navegacion .navbar-nav a {
   color: black; }
-  header .navegacion #menu_principal a:hover {
+  header .navegacion .navbar-nav a:hover {
     color: #0583f6; }
 
 /* Banner principal */

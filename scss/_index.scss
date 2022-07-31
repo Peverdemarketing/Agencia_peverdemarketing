@@ -1,0 +1,106 @@
+#titulo_contacto {
+    color: blue;
+    height: 200px;
+    line-height: 20px;
+    text-align: left;
+    font-family: Verdana, sans-serif;
+    
+}
+
+#titulo_contacto {
+    animation-duration: 3s;
+    animation-name: tituloanimadosx;
+    font-family: Verdana, sans-serif;
+}
+
+
+
+
+#titulo_index {
+    color: blue;
+    height: 200px;
+    display: flex;
+    line-height: 20px;
+    text-align: left;
+    justify-content: center;
+    padding-top: 10%;
+    font-family: Verdana, sans-serif;
+
+}
+
+#titulo_index {
+    animation-duration: 18s;
+    animation-name: titulo_index_animado;
+    font-family: Verdana, sans-serif;
+}
+
+
+#boton_banner_principal_bt {
+    animation-duration: 5s;
+    animation-name: animacion_de_boton_principal;
+    font-family: Verdana, sans-serif;
+}
+
+
+
+#boton_principal_mas_informacion {
+    align-items: center;
+    align-content: center;
+    display: contents;
+    font-family: Verdana, sans-serif;
+
+}
+
+
+#titulo_porque_nosotros {
+    color: white;
+    font-weight: 1000;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-family: Verdana, sans-serif;
+}
+
+
+
+
+#porque_nosotros {
+    background: rgb(102,167,233);
+    background: linear-gradient(180deg, rgba(102,167,233,1) 0%, rgba(8,123,188,1) 87%, rgba(20,126,192,1) 100%);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    color: aqua;
+
+}
+
+#porque_nosotros p {
+    color: #fff;
+    font-family: Verdana, sans-serif;
+}
+
+
+
+#nuestros_clientes {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+#ventaja_titulo {
+    padding-top: 25px;
+    color: #0034ee;
+}
+
+
+
+#texto_de_banner {
+    color: black;
+    font-weight: 1000;
+    text-shadow:2px #999;
+    align-content: right;
+}
+
+
+#boton_contactar_seccion_home_nuestra_ventaje {
+    margin-bottom: 10px;
+}

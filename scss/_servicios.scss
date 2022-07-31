@@ -15,4 +15,30 @@
 #decision {
     padding-top: 60px;
     padding-bottom: 60px ;
+    color: white;
+    background: rgb(102,167,233);
+    background: linear-gradient(180deg, rgba(102,167,233,1) 0%, rgba(8,123,188,1) 87%, rgba(20,126,192,1) 100%);
+}
+
+#titulo_secundario_seccion_servicios_decision {
+    color: white;
+}
+
+/*Imagenes seccion de servicios*/
+@media (min-width:100px) and (max-width:768px) {
+    #imagen_estrategia_global {
+        display: none;
+    }
+    #imagen_estrategia_global_2 {
+        display: none;
+    }
+    #imagen_email_marketing_servicios {
+        display: none;
+    }
+    #imagen_inbountmarketing {
+        display: none;
+    }
+    #imagen_investigacion_de_mercados {
+        display: none;
+    }
 }

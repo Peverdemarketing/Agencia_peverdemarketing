@@ -1,0 +1,19 @@
+
+@mixin footer_web {
+    padding-top: 50px;
+    margin-top: 50px;
+    background-image: radial-gradient(circle at 50% -20.71%, #be5af5 0, #a04ff4 16.67%, #7944f3 33.33%, #3c3cf2 50%, #0037f1 66.67%, #0034ef 83.33%, #0034ee 100%);
+    color: white;
+    font-weight: 800;
+    padding-bottom: 50px;
+    font-family: Verdana, sans-serif;
+}
+
+
+.footer_home {
+    @include footer_web;
+}
+
+.iconos_de_redes_footer {
+    padding-top: 20px;
+}
